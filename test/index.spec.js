@@ -1,9 +1,12 @@
 const assert = require('assert');
+const {expect} = require('chai');
+
 const {isAdult, sortArrayUp, isPalindrome, isOddNumber, isEvenNumber} = require('../index.js');
 
 describe('function isAdult', () => {
     it('should return true if the number is equal 21', () => {
-        assert.equal (isAdult(21), true);
+       // assert.equal (isAdult(21), true);
+       expect(isAdult(21)).true;
     });
     it('should return true if the number is greater than 21', () => {
         assert.equal (isAdult(55), true);
@@ -13,6 +16,8 @@ describe('function isAdult', () => {
     });
     it('should return undefined if the number is negative', () => {
         assert.equal (isAdult(-1), undefined);
+        expect(isAdult(-1)).undefined;
+
     });
     it('should return undefined ifthe  number is not a number', () => {
         assert.equal (isAdult('1'), undefined);
