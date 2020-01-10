@@ -1,26 +1,33 @@
-##Testing with Mocha + 
+## Testing with Mocha-Chai
 
 ## What is Mocha?
   - [Mocha](https://mochajs.org/) is a JavaScript test framework that runs on Node.js and in the browser.
-  - good for asynchronous testing
-  - Mocha does not include an assertion library so that's why we use.... Chai!
+  - Mocha does not include an assertion library so that's why we use Chai.
 
 ## What is Chai?
   - [Chai](http://chaijs.com/) is an assertion library that pairs well with any JS testing framework
   - Chai has 3 different styles of assertion: `assert`, `expect`, and `should`
+  - In this project I am using an`expect` style.
+
+## Installation
+https://www.chaijs.com/guide/installation/
+## Node.js
+
+The `chai` package is available on npm (https://www.npmjs.com/) To install it, type in Terminal:
+
+    ` npm install chai`
+     
+## Plugins
+1.chai-arrays - for test an arrays
+
+ `npm install chai-arrays`
+ 
+2.chai-string - for test the strings
+
+ `npm install chai-string`
+    
+    
 
 
-## Setup:
-
-
-```javascript
-const assert = require('assert');
-let chai = require("chai"),
-    expect = chai.expect;
-chai.use(require("chai-sorted"));
-```
-```javascript
-const {isAdult, sortArrayUp, isPalindrome, isOddNumber, isEvenNumber} = require('../index.js');
-```
 
 
