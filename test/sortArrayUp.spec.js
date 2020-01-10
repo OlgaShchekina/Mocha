@@ -1,7 +1,9 @@
+
 const assert = require('assert');
 let chai = require("chai"),
     expect = chai.expect;
 chai.use(require("chai-sorted"));
+
 const {sortArrayUp} = require('../index.js');
 
 describe('function sortArrayUp', () => {
@@ -29,4 +31,3 @@ describe('function sortArrayUp', () => {
 
 });
 
-module.exports = {sortArrayUp};

@@ -1,6 +1,7 @@
 const assert = require('assert');
 let chai = require("chai"),
     expect = chai.expect;
+
 const {isAdult} = require('../index.js');
 
 describe('function isAdult', () => {
@@ -28,4 +29,3 @@ describe('function isAdult', () => {
 
 });
 
-module.exports = {isAdult};

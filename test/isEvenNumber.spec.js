@@ -1,6 +1,7 @@
 const assert = require('assert');
 let chai = require("chai"),
     expect = chai.expect;
+
 const {isEvenNumber} = require('../index.js');
 
 describe('function isEvenNumber', () => {
@@ -29,4 +30,4 @@ describe('function isEvenNumber', () => {
     });
 
 });
-module.exports = {isEvenNumber};
+
