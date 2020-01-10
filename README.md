@@ -1,5 +1,5 @@
 ## Testing with Mocha-Chai
-
+In this project, I am learning to test functions using the Chai library.
 ## What is Mocha?
   - [Mocha](https://mochajs.org/) is a JavaScript test framework that runs on Node.js and in the browser.
   - Mocha does not include an assertion library so that's why we use Chai.
@@ -15,14 +15,14 @@ https://www.chaijs.com/guide/installation/
 
 The `chai` package is available on npm (https://www.npmjs.com/) To install it, type in Terminal:
 
-    ` npm install chai`
+    `npm install chai`
      
 ## Plugins
-1.chai-arrays - for test an arrays
+1.chai-arrays - for testing arrays:
 
  `npm install chai-arrays`
  
-2.chai-string - for test the strings
+2.chai-string - for testing strings:
 
  `npm install chai-string`
     
