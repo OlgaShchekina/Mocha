@@ -10,21 +10,32 @@ In this project, I am learning to test functions using the Chai library.
   - In this project I am using an`expect` style.
 
 ## Installation
-https://www.chaijs.com/guide/installation/
-## Node.js
 
-The `chai` package is available on npm (https://www.npmjs.com/) To install it, type in Terminal:
+## [Node.js](https://nodejs.org/en/)
 
-    `npm install chai`
+The `chai` package is available on [npm](https://www.npmjs.com/) To install it, type in Terminal:
+
+    npm install chai
      
 ## Plugins
-1.chai-arrays - for testing arrays:
+* `chai-arrays` - for testing arrays:
 
- `npm install chai-arrays`
+ ```
+npm install chai-arrays
+ ```
  
-2.chai-string - for testing strings:
+* `chai-string` - for testing strings:
+ ```
+npm install chai-string
+ ```
+* `chai-sorted` - for sorting
+```
+npm install chai-sorted
+```
+Go to Settings/Preferences -> Libraries and download libraries with the plugins names.  
+The file "index.js" contains functions for testing and their descriptions.  
+The The folder "test" contains a list of tests for each function separately.
 
- `npm install chai-string`
     
     
 
