@@ -12,8 +12,10 @@ In this project, I am learning how to test functions using the Chai library.
 
 ## Installation
 You should have Node and npm on your computer installed.
- Go to -> [Node.js](https://nodejs.org/en/) (npm is installed automatically)
- 
+ Go to -> [Node.js](https://nodejs.org/en/) (npm is installed automatically).Type in the terminal:
+ ```
+ npm i 
+ ```
  To install `Mocha` type the following commands in the terminal:
  ```
  npm install --global mocha
