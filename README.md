@@ -21,7 +21,7 @@ You should have Node and npm on your computer installed.
  npm install --global mocha
  npm install --save-dev mocha
 ```
-The `chai` package is available on [npm](https://www.npmjs.com/) To install it, type in the terminal:
+The `chai` package is available on [npm](https://www.npmjs.com/). To install it, type in the terminal:
 
     npm install --save-dev chai
      
@@ -37,7 +37,7 @@ npm install chai-arrays
  ```
 npm install chai-string
  ```
-* `chai-sorted` - for sorting
+* `chai-sorted` - for sorting:
 ```
 npm install chai-sorted
 ```
